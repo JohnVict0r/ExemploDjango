@@ -11,8 +11,25 @@
 ## configuração inicial
 
 `$ ./manage.py migrate
-$ ./mange.py runserver`
 
 ## Configurando usuário
 
 `$ ./manage.py createsuperuser`
+
+## Criando um novo App
+
+`$ ./manage.py startapp todo`
+
+é necessário instalar o app em settings.py
+
+INSTALLED_APPS = [
+    ...
+    'todo'
+]
+
+`$ ./manage.py makemigrations`
+`$ ./manage.py migrate`
+
+## Rodando a aplicação
+
+$ ./mange.py runserver`
