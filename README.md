@@ -12,3 +12,7 @@
 
 `$ ./manage.py migrate
 $ ./mange.py runserver`
+
+## Configurando usuário
+
+`$ ./manage.py createsuperuser`
